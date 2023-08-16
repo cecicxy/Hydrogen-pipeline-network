@@ -1,0 +1,9 @@
+\ Model H2_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R1343: - N_Beijing,Hebei <= -329478
+Bounds
+ -infinity <= N_Beijing,Hebei <= 0
+End
